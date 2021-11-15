@@ -1,0 +1,179 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #navbar {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+    
+    #navbar::before {
+        content: " ";
+        background-color: rgb(114 111 111);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 91%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    
+    #navbar ul {
+        display: flex;
+        margin: 21px 8px;
+        margin-top: 9px;
+    }
+    
+    #navbar ul li {
+        list-style: none;
+    }
+    
+    #logo {
+        margin: 11px 25px;
+    }
+    
+    #logo img {
+        width: 80px;
+        height: 70px;
+    }
+    
+    #navbar ul li a {
+        padding: 6px 28px;
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        border-radius: 20px;
+        display: block;
+    }
+    
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+        /* box-shadow :5px 5px 3px turquoise; */
+    }
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 407px;
+    }
+    
+    #home::before {
+        content: " ";
+        position: absolute;
+        background-image: url(2.webp);
+        background-repeat: no-repeat;
+        background-size: 1535px 548px;
+        height: 500px;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.98;
+    }
+    
+    #home p {
+        color: #fffdfd;
+        font-size: 29px;
+        text-align: center;
+    }
+    
+    #home h1 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #services {
+        display: flex;
+        margin: 20px 20px;
+        padding: 20px 20px;
+    }
+    
+    #services .box {
+        border: 3px solid rgb(0, 0, 0);
+        background-color: #fef6f6;
+        /* padding: 2px 2px; */
+        margin: 1px 13px;
+        width: 448px;
+        border-radius: 33px;
+    }
+    
+    #services .box img {
+        height: 183px;
+        width: 227px;
+        display: block;
+        margin: 0px auto;
+        margin-bottom: -23px;
+    }
+    
+    .h-secondary {
+        font-size: 38px;
+        text-align: center;
+        /* padding-bottom: 4px;
+    padding-bottom: 0px;
+    padding-top: 0px; */
+    }
+    
+    .heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 52px;
+        margin: 1px;
+        margin-bottom: -20px;
+    }
+    
+    .center {
+        text-align: center;
+        font-size: 25px;
+        padding: 0px 16px;
+        margin-top: -15px;
+    }
+    
+    .Best-dishes {}
+    
+    .image {
+        display: flex;
+        /* height: 400px;
+    width: 200px; */
+    }
+    
+    .image img {
+        height: 300px;
+        width: 300px;
+        padding: 25px 25px;
+        margin: 24px 74px;
+    }
+    
+    .image1 {
+        display: flex;
+        /* height: 400px;
+    width: 200px; */
+    }
+    
+    .image1 img {
+        /* display: flex; */
+        height: 300px;
+        padding: 25px 25px;
+        width: 300px;
+        margin: 24px 74px;
+    }
+    
+    .center1 {
+        text-align: center;
+        font-size: 30px;
+        background-color: black;
+        color: white;
+    }
+    
+    .dish {
+        text-align: center;
+        font-size: 50px
+    }
